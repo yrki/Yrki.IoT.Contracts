@@ -9,7 +9,7 @@ namespace Yrki.IoT.Contracts
         /// If not set the server will set the date and time.
         /// For best accurancy, only use if the gateway has a clock that is synchronized with a NTP-server.
         /// </summary>
-        DateTimeOffset? ReceivedAt { get; set; }
+        DateTimeOffset? ReceivedAtGatewayDateTime { get; set; }
 
         /// <summary>
         /// The unique Id of the gateway
